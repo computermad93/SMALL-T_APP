@@ -12,21 +12,21 @@
 
 <div data-role="page" id="page">
 	<div data-role="header">
-		<h1>Welcome</h1>
+		<h1> Managment Console</h1>
 	</div>
 	<div data-role="content">	
 		<ul data-role="listview">
 			<li><a href="#page2">Time & Record</a></li>
-            <li><a href="#page3">Disqualification</a></li>
-			<li><a href="#page4">Page Four</a></li>
+            <li><a href="#page3">Disqualification </a></li>
+			<li><a href="#page4">Swimmer Managment</a></li>
 		</ul>		
 	</div>
 	<div data-role="footer">
-		<h4>Page Footer</h4>
+		<h4>SMALL-t</h4>
 	</div>
 </div>
 
-<div data-role="page" id="page2"> <!--start of time and record page-->
+<div id="page2" data-role="page"> <!--start of time and record page-->
 	<div data-role="header">
             <div id="backButton"> 
           <div align="justify"><!--BackButton-->
@@ -84,21 +84,38 @@ _gaq.push(['_trackPageview']);
         
 		<h1>Disqualification</h1>
 	</div>
-    
+   
+          
     <!--start of DQ report-->
-	<div data-role="content">
-	  <div data-role="collapsible-set">
-	    <div data-role="collapsible">
-	      <h3>QD Report</h3>
-	     
-        </div>
-	 
-	 
-      </div>	
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>DQ Report</h3>
+        
       </div>
-      
       <!--end of QD report-->
       
+          <!--start of DQ viwer-->
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>DQ Viewer</h3>
+        <p>Content</p>
+      </div>
+         <!--end of DQ viwer-->
+         
+            <!--start of DQ manager-->
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>DQ Manager</h3>
+        <p>Content</p>
+      </div>
+      
+         <!--end of DQ manager-->
+    </div>
+
+      
+ 
+          
+        
+         
+          
 	<div data-role="footer">
 		<h4>Page Footer</h4>
 	</div>
@@ -110,7 +127,7 @@ _gaq.push(['_trackPageview']);
 
 <div data-role="page" id="page4">
 	<div data-role="header">
-		<h1>Page Four</h1>
+		<h1>Swimmer Managment</h1>
 	</div>
 	<div data-role="content">	
 		Content		
